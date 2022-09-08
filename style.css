@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background-color: #14181d;
+}
+
+nav {
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+nav .logo {
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav .logo .logoimg {
+    height: 50px;
+}
+
+nav .logo .logotext {
+    height: 45px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 15%;
+    margin-right: 5%;
+}
+
+nav ul li {
+    list-style: none;
+    color: #d6d9df;
+    font-size: 15px;
+}
+
+nav .btn {
+    width: 15%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+
+
+}
+
+nav .Start {
+    height: 100%;
+    width: 50%;
+    background: none;
+    color: #fff;
+    border: 1px solid #44d2b8;
+}
+
+nav .btn i {
+    color: #fff;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.img-section img {
+    height: 500px;
+
+}
+
+.text-section {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-section .heading1 {
+    width: 80%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    font-size: 60px;
+    color: white;
+    font-weight: 100;
+    margin-top: 10%;
+}
+
+.text-section .heading1 img {
+    height: 80px;
+    margin-bottom: 5%;
+}
+
+.text-section .heading2 {
+    font-size: 60px;
+    font-weight: 100;
+    margin-right: 25%;
+    background: #3AE9D0;
+    background: linear-gradient(to right, #3AE9D0 29%, #33B1FF 49%, #B679FF 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-section p {
+    font-size: 15px;
+    margin-right: 35%;
+    margin-top: 2%;
+    color: #fff;
+}
+
+.line {
+    width: 40%;
+    margin-right: 40%;
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+
+}
+
+.line .blank {
+    width: 20%;
+    height: 2px;
+    background-color: #fff;
+}
+
+.line i {
+    font-size: 20px;
+    color: #fff;
+}
+
+.line a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.btn2 {
+    width: 40%;
+    /* background-color: #B679FF; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 40%;
+    margin-top: 5%;
+}
+
+.btn2 img {
+    height: 25px;
+}
+
+.btn2 button {
+    height: 40px;
+    width: 50%;
+    background: none;
+    color: #fff;
+    border: 1px solid hsl(293, 77%, 73%);
+}
+
+.container2 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #14181d;
+}
+
+.container2 .phase {
+    width: 22%;
+    height: 30vh;
+    margin-bottom: 50px;
+    background-color: #14181d;
+    border: 1px solid white;
+    padding: 20px;
+}
+
+.container2 .phase hr {
+    width: 30px;
+    margin-top: 15px;
+}
+
+.container2 .phase .one {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.container2 .one img {
+    height: 40px;
+}
+
+.container2 .one h3 {
+    color: #37dfbb;
+
+}
+
+.container2 .phase .mvp {
+    font-size: 25px;
+    margin-top: 10%;
+    color: #fff;
+
+}
+
+.container2 .phase .design {
+    font-size: 25px;
+    margin-top: 10%;
+    color: #37dfbb;
+
+}
+
+.container2 .phase .develop {
+    font-size: 25px;
+    margin-top: 10%;
+    color: #fff;
+
+}
+
+.container2 .phase p {
+    font-size: 15px;
+    margin-top: 20px;
+    color: white;
+}
+
+.container .text-section .btn2 button:hover {
+    border: 2px solid white;
+    background-color: hsl(293, 78%, 39%);
+    font-size: 15px;
+    font-weight: 900;
+    width: 58%;
+    height: 50px;
+}
+
+.container .text-section a:hover {
+    color: hsl(293, 78%, 39%);
+    border-bottom: 1px solid white;
+
+}
+
+nav .btn button:hover {
+    width: 58%;
+    height: 105%;
+    border: 2px solid white;
+    color: #000;
+    /* font-size: 15px; */
+    font-weight: 600;
+    background-color: #33B1FF;
+}
+
+@media (max-width:486px) {
+    .main{
+        height: 100%;
+    }
+    nav ul {
+        display: none;
+    }
+
+    nav .btn {
+
+        width: 30%;
+        margin-right: 10%;
+
+    }
+
+    nav .btn .Start {
+        width: 100%;
+    }
+
+    nav i {
+        display: none;
+    }
+
+    nav .logo .logoimg {
+        height: 40px;
+    }
+
+    nav .logo .logotext {
+        height: 20px;
+    }
+
+    .container {
+        width: 100%;
+        display: block;
+    }
+
+    .container .text-section {
+        width: 100%;
+    }
+
+    .container .text-section .heading1 {
+        width: 80%;
+        font-size: 46px;
+        font-weight: 900;
+        /* margin-left: 50px; */
+
+    }
+
+    .container .text-section .heading2 {
+        width: 80%;
+        font-size: 50px;
+        margin-left: 25%;
+
+    }
+
+    .container .text-section p {
+        font-size: 11px;
+        margin-left: 8%;
+    }
+
+   
+
+    .line a {
+        width: 100%;
+    }
+
+    .btn2 {
+        width: 60%;
+        margin-left: 20%;
+
+    }
+
+    .btn2 button {
+        width: 100%;
+    }
+
+    .container .img-section {
+        width: 100%;
+        margin-top: 10%;
+
+    }
+
+    .container .img-section img {
+        height: 250px;
+        margin-left: 20%;
+
+    }
+    .container2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .container2 .phase{
+        width: 60%;
+        height: 35vh;
+        margin-top: 20px;
+    }
+   
+
+
+}
